@@ -38,7 +38,7 @@ class RAWHandler:
         # Set search parameters
         search_parameters = {
             "platform": "Sentinel-1",
-            "processingLevel": "SLC",
+            "processingLevel": "RAW",
             "instrument": "C-SAR",
             "intersectsWith": self.wkt,
             "maxResults": max_res,
